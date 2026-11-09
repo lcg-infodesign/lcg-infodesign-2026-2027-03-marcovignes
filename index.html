@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sketch</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
-  </head>
-
-  <body>
-    <script src="sketch.js"></script>
-  </body>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I 100 fiumi più lunghi — un glifo per fiume</title>
+  <!-- Libreria p5.js caricata da CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.0.3/lib/p5.min.js"></script>
+  <style>
+    /* Rimuove i margini del browser; la pagina può scorrere in verticale
+       perché i 100 fiumi impilati possono superare l'altezza della finestra. */
+    html, body { margin: 0; padding: 0; background: #141414; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <!-- Lo sketch crea e gestisce il canvas -->
+  <script src="sketch.js"></script>
+</body>
 </html>
